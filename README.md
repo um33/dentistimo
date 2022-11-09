@@ -65,7 +65,8 @@ On some READMEs, you may see small images that convey metadata, such as whether 
 ## Architecture
 
 ![image.png](./image.png)
-![Design_Template.txt]
+
+![Design_Template.txt](./Design_Template.txt)
 
 ## Visuals
 
