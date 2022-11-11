@@ -66,7 +66,7 @@ On some READMEs, you may see small images that convey metadata, such as whether 
 
 ![image.png](./image.png)
 
-![design_decision_template.png](./design_decision_template.png)
+![DesignTemplate.png](./DesignTemplate.png)
 
 ## Visuals
 
