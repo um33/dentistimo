@@ -64,8 +64,13 @@ On some READMEs, you may see small images that convey metadata, such as whether 
 
 ## Architecture
 
-![image.png](./image.png)
+### Service-oriented Architecture
+![service-oriented-architecture.png](./service-oriented-architecture.png)
 
+### Entity Relationship (ER) Diagram
+![er-diagram-dentistimo.drawio.png](./er-diagram-dentistimo.drawio.png)
+
+### Placeholder table name
 ![DesignTemplate.png](./DesignTemplate.png)
 
 ## Visuals
