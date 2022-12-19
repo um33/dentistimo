@@ -83,11 +83,17 @@ Within a particular ecosystem, there may be a common way of installing things, s
 
 ### MongoDB and Studio 3T
 - Check that you have mongo version > 5 by running ’mongosh’ in your terminal
+![mongosh.png](./mongosh.png)
 - Download and install Studio 3T from https://studio3t.com/download/
+![download-studio3t.png](./download-studio3t.png)
 - Open Studio 3T and create a new connection if not already existing
+![fromURI.png](./fromURI.png)
 - Create new connection by importing your URI (mongodb://localhost:27017) with Connection Manager
+![connectionURI.png](./connectionURI.png)
 - Click ’save’ and then ’connect’
+![connect-studio3t.png](./connect-studio3t.png)
 - Test your mongoDB by running one of your services
+![test-mongoDB.png](./test-mongoDB.png)
 
 ## Usage
 
