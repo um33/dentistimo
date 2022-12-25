@@ -65,13 +65,16 @@ On some READMEs, you may see small images that convey metadata, such as whether 
 ## Architecture
 
 ### Service-oriented Architecture
+
 ![service-oriented-architecture.png](./service-oriented-architecture.png)
 
 ### Entity Relationship (ER) Diagram
+
 ![er-diagram-dentistimo.drawio.png](./er-diagram-dentistimo.drawio.png)
 
-### Placeholder table name
-![DesignTemplate.png](./DesignTemplate.png)
+### Design decision tamplate
+
+![Design_Template_2.png](./Design_Template_2.png)
 
 ## Visuals
 
@@ -82,17 +85,29 @@ Depending on what you are making, it can be a good idea to include screenshots o
 Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
 
 ### MongoDB and Studio 3T
+
 #### 1. Check that you have mongo version ≥ 5, by running ’mongosh’ in your terminal. Install or update if you don't have mongo version 5 or above. Installtion instructions for various different OS's can be found here: https://www.mongodb.com/docs/manual/installation/.
+
 ![mongosh.png](./mongosh.png)
+
 #### 2. Download and install Studio 3T from https://studio3t.com/download/. Studio 3T is a GUI that enables easier interaction between the user and the database.
+
 ![download-studio3t.png](./download-studio3t.png)
+
 #### 3. Open Studio 3T and create a new connection if not already existing. This new connection is part of the setup where you declare through which URI your database and your backend service is communication through.
+
 ![fromURI.png](./fromURI.png)
+
 #### 4. Create the new connection by importing your URI ('mongodb://localhost:27017' for example in this project) with Connection Manager.
+
 ![connectionURI.png](./connectionURI.png)
+
 #### 5. Click ’save’ and then click ’connect’.
+
 ![connect-studio3t.png](./connect-studio3t.png)
+
 #### 6. Test your mongoDB connection and configuration by running one of your services through MQTT. Below follows an example from one of our sevices that creates a user in the DB when the user signs up on our web page.
+
 ![test-mongoDB.png](./test-mongoDB.png)
 
 ## Usage
