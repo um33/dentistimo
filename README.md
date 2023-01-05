@@ -41,7 +41,7 @@ On some READMEs, you may see small images that convey metadata, such as whether 
 
 ![Design_Template_2.png](./Design_Template_2.png)
 
-### Design decision tamplate
+### Sitemap
 
 ![Dentistimo_Sitemap.png](./Dentistimo_Sitemap.png)
 
