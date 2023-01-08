@@ -21,6 +21,25 @@
 
 ## Architecture
 
+### Architectural Significant Requirements
+Concurrency – The system should not allow concurrent bookings. That means, if
+two or more users make bookings at the same clinic, to the same dentist at the same
+time, the system will be able to handle it in a proper way. Meaning one user should
+receive a confirmation and the other a rejection.
+
+Resilience to failure – Solid error handling for all entry points into the system is an
+important consideration for the system as it is trusted to handle data from the general
+public by the government.
+
+Openness – The system should be open to new features since we know that new
+requirements will be added in the project.
+
+Security – The system shouldn’t allow users to access unauthorized accounts or
+change other users' booking.
+
+Transparency – The system should seem to be like a single, coherent entity for one
+user rather than individual components.
+
 ### Functional Decomposition Model (FDM)
 
 ![functional-decomposition-model.drawio.png](./functional-decomposition-model.drawio.png)
