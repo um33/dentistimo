@@ -102,12 +102,12 @@ Use examples liberally, and show the expected output if you can. It's helpful to
 ## The Team
 
 - Armin Balesic gusbalar@student.gu.se
-- Victor Campanello
-- Labiba Eshaba
-- Conny Luong
-- Umar Mahmood
-- Shariq Shahbaz
-- Alaa Taleb
+- Victor Campanello guscampvi@student.gu.se
+- Labiba Karar Eshaba guseshka@student.gu.se
+- Conny Luong gusluoco@student.gu.se
+- Umar Mahmood gusmahum@student.gu.se
+- Shariq Shahbaz gusshahbsh@student.gu.se
+- Alaa Taleb gustalebal@student.gu.se
 
 ## License
 
