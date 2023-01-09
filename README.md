@@ -15,13 +15,14 @@
  - **include a clear description of the conceptual design  of  the  architecture; including architectural styles**
 
  - **How the conceptual design is mapped onto implementation/technologies.**
-  ### Service-oriented Architecture (SOA)
+  
+    ### Service-oriented Architecture (SOA)
 
   ![soa-diagram1.png](./soa-diagram1.png)
   
-  ### Deployment Diagram
+    ### Deployment Diagram
 
-  ![dentistimo.png](./dentistimo.png)
+  ![Dentistimo.png](./Dentistimo.png)
 
  - **Identify, state and justify any architecture design decisions or tactics used:**
 
