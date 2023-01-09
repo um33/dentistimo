@@ -1,8 +1,7 @@
 # T1-Project Documentation
 
 # Purpose
- - Team members Roles, and Tasks,  
- - Links to all relevant related team resources (Trello board, source-code repositories etc.) 
+This project's purpose is to create a distributed software system for booking dentist appointments specifically for citizens of Gothenburg. The system is designed to be accessible from a standard browser, allowing users to book their appointments at any clinics available. Additionally, its distributed nature makes the system more fault tolerant, thus more available and less prone to downtimes compared to non-distributed.
 
 # Software Requirement Specification (SRS)
 
