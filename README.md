@@ -35,11 +35,32 @@
 
    - We use an API gateway which is the entry point into the backend system, this component is responsible for properly forwarding client requests and returning service responses back to the client. This is also where a circuit breaker is implemented so that the application can react to failures in an efficient manner, improving performance and reliability.
 
+# Program Management Report (PMR)
 
-# Program Management Report (PMR): (Armin)
- - describe the project management practices used 
- - report on important project management decisions regarding schedule and scope. (weekly updates) 
+## Description of the Project Management Practices
+### The Scrum Methodology
+Our team chose to implement the Scrum methodology for this project. This included conducting sprint planning, sprint reviews, sprint retrospectives, using a Kanban board for task management, and holding daily standups. The team also rotated members in the roles of Scrum Master, Product Owner, and Developers. The decision was made due to the benefits provided by an agile process model, as well as the team’s overall familiarity with the model. User Story Practice is the chosen form of task definition within our team, this was mainly because the requirements provided by the product owners are in user story form. Continuous Delivery (CD) is a core practice within the team, this is emphasized by the use of an agile process model such as Scrum. The sprint based workflow inherently supports Continuous Delivery (CD), hence its use in the project.
 
+### Spring Planning
+The sprint planning consists of a meeting between the team Scrum Master and the members of the team. The agenda of the meeting contains but is not limited to, the optimization of user stories (i.e breaking them down into smaller stories), cost and time estimations for the user stories, as well as the distribution and assignment of tasks. The meeting, ideally, should output an updated sprint backlog with structured user stories that are estimated and distributed among the members of the team.
+
+### Sprint Review
+This meeting is held at the end of the sprint, where the team presents what was accomplished during this sprint and decides whether the goal of this sprint was achieved. If the goal was not achieved then the unfinished items were moved back to the Product Backlog, waiting for future assessment for one of the upcoming sprints.
+
+### Sprint Retrospective
+At the end of each sprint, when the sprint review was done, the scrum team carries out a sprint retrospective. Sprint retrospective is a discussion between team members regarding questions such as “what went well?”, “what can we improve?”, and “what should we start, stop or continue doing?”. After the meeting, the whole team receives a filtered version of good practices and activities that the team can apply in the next sprint. The goal behind is to have a more successful sprint than the previous one.
+
+### Kanban for User Stories and Task Management
+The Product Owner and the Scrum Master had the overall responsibility of the Kanban board on Trello, making sure we meet the traceability requirements and keeping the tool updated in relation to the current status of the project. Every sprint we would rotate these roles so that everyone had the opportunity to step into a new role and learn about the position. User stories enabled us to keep track of work progress and who was assigned to what task. We followed the template of <As a [type of user], I want to [perform some task] so that I can [achieve some goal]>. Additionally, we used Kanban for handling other project related tasks that were not user stories. 
+
+To successfully implement product and sprint backlogs, we followed several steps. First, we identified and documented all the necessary tasks in the product backlog. This included breaking down large tasks into smaller, more manageable pieces. Next, the team prioritized the tasks in the product backlog based on their importance and the dependencies between them. Then, we selected a set of tasks from the product backlog to be completed during the current sprint and added these to the sprint backlog. We also made sure to regularly review and update both the product and sprint backlogs to reflect changes in priorities and completed tasks. By following these steps, we were able to effectively organize and manage our work, ensuring that the necessary tasks were completed in a timely and efficient manner.
+
+### Daily Standups
+Whether it was on campus or remotely via Discord, we held regular daily standups where each team member would answer the following three questions: “what did you work on yesterday?”, “what are you working on today?” and “do you have any impediments you would like to address?”. It was the Scrum Master’s responsibility to moderate the daily standups to facilitate collaboration between developers by identifying possible synergies during the daily scrum. Also, the scrum master’s job was to take care of any obstacles that are not directly related to development.
+
+
+## Important project management decisions regarding schedule and scope.
+There were several important project management decisions made regarding the schedule and scope of the project. First, the team decided to have sprint planning meetings every Wednesday afternoon in each sprint. This allowed us to regularly review and plan the work that needed to be completed in the upcoming sprint, ensuring that we were able to stay on track and meet our deadlines. Additionally, we decided to have sprint review and retrospective meetings on Mondays. These meetings provided an opportunity for us to review the work completed in the previous sprint, as well as reflect on what went well and what could be improved. Both of these meetings were limited to a maximum of 2 hours, which helped to ensure that we remained focused and efficient. By keeping the meetings short and to the point, we were able to stay on track and avoid wasting time. Finally, we made the decision to stick with the original scope of the project and not change it. This allowed us to maintain our focus and avoid the distractions and delays that can often be caused by scope changes. By effectively managing our time and resources, we were able to successfully implement our work within the original scope of the project.
 
 # Architecture (This will fall under SAD)
 
