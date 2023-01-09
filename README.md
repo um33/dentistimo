@@ -84,6 +84,7 @@ user rather than individual components.
 ## Sitemap
 
 ![Dentistimo_Sitemap.png](./Dentistimo_Sitemap.png)
+*Figure - The Sitemap diagram represents all the pages in our application and shows the inter-connection between them. It also shows how the navigation takes place from one page to the other.*
 
 ## Visuals (Victor if time)
 
