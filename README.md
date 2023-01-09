@@ -10,6 +10,8 @@
  - team requirements logically 
 
 # Software Architecture Document (SAD): (Shariq, Alaa & Umar)
+# Deployment Diagram 
+![Dentistimo.png](./Dentistimo.png)
  - include a clear description of the conceptual design  of  the  architecture; including architectural styles 
  - include a section that explains how the conceptual design is mapped onto implementation/technologies. 
  - Identify, state and justify any architecture design decisions or tactics used 
