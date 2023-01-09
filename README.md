@@ -1,10 +1,10 @@
 # T1-Project Documentation
 
-# Purpose (Conny)
+# Purpose
  - Team members Roles, and Tasks,  
  - Links to all relevant related team resources (Trello board, source-code repositories etc.) 
 
-# Software Requirement Specification (SRS): (Labi and Victor)
+# Software Requirement Specification (SRS)
 
 1. The system shall allow user to select their appointment from a selection of clinics
 
@@ -80,19 +80,19 @@
 
 22. The system shall have a component to handle the communication between all the separate components
 
-# Software Architecture Document (SAD): (Shariq, Alaa & Umar)
+# Software Architecture Document (SAD)
   
   #### Service-oriented Architecture (SOA)
 
   ![soa-diagram1.png](./soa-diagram1.png)
   
- > Figure 1: We use the traditional Client/Server approach over HTTP between the client and the api gateway. which is the entry point into the backend system. The gateway communicates with the other services (auth-service, booking-service, clinics service, notification service) using  the publish/subscribe approach through the MQTT broker.
+ > Figure 1 - We use the traditional Client/Server approach over HTTP between the client and the api gateway. which is the entry point into the backend system. The gateway communicates with the other services (auth-service, booking-service, clinics service, notification service) using  the publish/subscribe approach through the MQTT broker.
 
   #### Deployment Diagram
 
   ![Dentistimo.png](./Dentistimo.png)
 
-  > Figure 2: - Our system(Dentistimo) has a client(Dentistimo frontend) and an api gateway(Dentistimo gateway that receives HTTP  requests from the client and forwards them to other service components (Dentistimo-Authentication, Dentistimo-Notification, Dentistimo-Booking and Dentistimo-Clinics). No direct access to the services is provided to the client, all communication must go through the gateway. 
+  > Figure 2 - Our system(Dentistimo) has a client(Dentistimo frontend) and an api gateway(Dentistimo gateway that receives HTTP  requests from the client and forwards them to other service components (Dentistimo-Authentication, Dentistimo-Notification, Dentistimo-Booking and Dentistimo-Clinics). No direct access to the services is provided to the client, all communication must go through the gateway. 
 
   **How is the conceptual design mapped onto implementation/technologies.**  
   The client uses Vue js for the frontend framework (although this is in no way relevant for interacting with the backend components of the program). The gateway implements an API using [Node.js](https://nodejs.org/en/) with [expressjs](https://expressjs.com/) as the supporting framework, this interaction is in event the Client/Server architecture using HTTP as the protocol for commmunication. The interactions between the gateway and the various services takes place through MQTT as the Publish/Subscribe architecture, the broker used (although not a requirement of the application as long as the broker is running) is [mosquitto](https://mosquitto.org/). The technologies used in all of the services include [MQTT.js](https://github.com/mqttjs/MQTT.js), along with typescript.
@@ -158,23 +158,23 @@ user rather than individual components.
 ## Functional Decomposition Model (FDM)
 
 ![functional-decomposition-model.drawio.png](./functional-decomposition-model.drawio.png)
-*Figure - The purpose of a functional decomposition model is to break down a system into its smaller components of functions. Our FDM can be read from left to right in a chronological order, from the point of when a user registers a new account to notification of a successful appointment booking.*
+> Figure 3 - The purpose of a functional decomposition model is to break down a system into its smaller components of functions. Our FDM can be read from left to right in a chronological order, from the point of when a user registers a new account to notification of a successful appointment booking.*
 
 
 ## Entity Relationship (ER) Diagram
 
 ![er-diagram-dentistimo.drawio.png](./er-diagram-dentistimo.drawio.png)
-*Figure - The ER diagram represents the system's database by illustrating the entities and their relationship. Each of the four entities above represent the 4 different backend services that are implemented in their corresponding repo on GitLab. Respectively, each service is connected to its own database in order to fulfull the requirement of service-oriented architecture (SOA) style.*
+> Figure 4 - The ER diagram represents the system's database by illustrating the entities and their relationship. Each of the four entities above represent the 4 different backend services that are implemented in their corresponding repo on GitLab. Respectively, each service is connected to its own database in order to fulfull the requirement of service-oriented architecture (SOA) style.*
 
 ## Design decision tamplate
 
 ![Design_Template_2.png](./Design_Template_2.png)
+> Table 1 - placeholder
 
 ## Sitemap
 
 ![Dentistimo_Sitemap.png](./Dentistimo_Sitemap.png)
-
-*Figure - The Sitemap diagram represents all the pages in our application and shows the inter-connection between them. It also shows how the navigation takes place from one page to the other.*
+> Figure 5 - The Sitemap diagram represents all the pages in our application and shows the inter-connection between them. It also shows how the navigation takes place from one page to the other.*
 
 ## Visuals (Victor if time)
 
