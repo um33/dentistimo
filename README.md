@@ -97,6 +97,8 @@
 
   ![Dentistimo.png](./Dentistimo.png)
 
+  *Figure - Our system(Dentistimo) has a client(Dentistimo frontend) and an api gateway(Dentistimo gateway that receives HTTP  requests from the client and forwards them to other service components (Dentistimo-Authentication, Dentistimo-Notification, Dentistimo-Booking and Dentistimo-Clinics). No direct access to the services is provided to the client, all communication must go through the gateway. 
+
   **Identify, state and justify any architecture design decisions or tactics used:**
 
    - To improve fault tolerance for the distributed system as a whole, we implemented a set standard for error communication between the components, the standard is known as MQTTErrorException in code and is used to effectively and reliably transfer errors from the service layer to the client. 
