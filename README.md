@@ -14,9 +14,9 @@
 
  - **include a clear description of the conceptual design  of  the  architecture; including architectural styles**
 
+ - **include a section that explains how the conceptual design is mapped onto implementation/technologies.**
 ![soa-diagram1.png](./soa-diagram1.png)
 
- - **include a section that explains how the conceptual design is mapped onto implementation/technologies.**
  - **Identify, state and justify any architecture design decisions or tactics used:**
 
    - To improve fault tolerance for the distributed system as a whole, we implemented a set standard for error communication between the components, the standard is known as MQTTErrorException in code and is used to effectively and reliably transfer errors from the service layer to the client. 
