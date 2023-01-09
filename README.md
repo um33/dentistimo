@@ -63,17 +63,17 @@ user rather than individual components.
 ## Functional Decomposition Model (FDM)
 
 ![functional-decomposition-model.drawio.png](./functional-decomposition-model.drawio.png)
-*Figure X - The purpose of a functional decomposition model is to break down a system into its smaller components of functions. Our FDM can be read from left to right in a chronological order, from the point of when a user registers a new account to notification of a successful appointment booking.*
+*Figure - The purpose of a functional decomposition model is to break down a system into its smaller components of functions. Our FDM can be read from left to right in a chronological order, from the point of when a user registers a new account to notification of a successful appointment booking.*
 
 ## Service-oriented Architecture (SOA)
 
 ![service-oriented-architecture.png](./service-oriented-architecture.png)
-*Figure X - placeholder*
+*Figure - placeholder*
 
 ## Entity Relationship (ER) Diagram
 
 ![er-diagram-dentistimo.drawio.png](./er-diagram-dentistimo.drawio.png)
-*Figure X - placeholder*
+*Figure - The ER diagram represents the system's database by illustrating the entities and their relationship. Each of the four entities above represent the 4 different backend services that are implemented in their corresponding repo on GitLab. Respectively, each service is connected to its own database in order to fulfull the requirement of service-oriented architecture (SOA) style.*
 
 ## Design decision tamplate
 
