@@ -81,23 +81,21 @@
 22. The system shall have a component to handle the communication between all the separate components
 
 # Software Architecture Document (SAD): (Shariq, Alaa & Umar)
-
-
- - **Description of the conceptual design  of  the  architecture; including architectural styles**
-
- - **How the conceptual design is mapped onto implementation/technologies.**
   
   #### Service-oriented Architecture (SOA)
 
   ![soa-diagram1.png](./soa-diagram1.png)
   
- *Figure - We use the traditional Client/Server approach over HTTP between the client and the api gateway. which is the entry point into the backend system. The gateway communicates with the other services (auth-service, booking-service, clinics service, notification service) using  the publish/subscribe approach through the MQTT broker.
+ > Figure 1: We use the traditional Client/Server approach over HTTP between the client and the api gateway. which is the entry point into the backend system. The gateway communicates with the other services (auth-service, booking-service, clinics service, notification service) using  the publish/subscribe approach through the MQTT broker.
 
   #### Deployment Diagram
 
   ![Dentistimo.png](./Dentistimo.png)
 
-  *Figure - Our system(Dentistimo) has a client(Dentistimo frontend) and an api gateway(Dentistimo gateway that receives HTTP  requests from the client and forwards them to other service components (Dentistimo-Authentication, Dentistimo-Notification, Dentistimo-Booking and Dentistimo-Clinics). No direct access to the services is provided to the client, all communication must go through the gateway. 
+  > Figure 2: - Our system(Dentistimo) has a client(Dentistimo frontend) and an api gateway(Dentistimo gateway that receives HTTP  requests from the client and forwards them to other service components (Dentistimo-Authentication, Dentistimo-Notification, Dentistimo-Booking and Dentistimo-Clinics). No direct access to the services is provided to the client, all communication must go through the gateway. 
+
+  **How is the conceptual design mapped onto implementation/technologies.**  
+  The client uses Vue js for the frontend framework (although this is in no way relevant for interacting with the backend components of the program). The gateway implements an API using [Node.js](https://nodejs.org/en/) with [expressjs](https://expressjs.com/) as the supporting framework, this interaction is in event the Client/Server architecture using HTTP as the protocol for commmunication. The interactions between the gateway and the various services takes place through MQTT as the Publish/Subscribe architecture, the broker used (although not a requirement of the application as long as the broker is running) is [mosquitto](https://mosquitto.org/). The technologies used in all of the services include [MQTT.js](https://github.com/mqttjs/MQTT.js), along with typescript.
 
   **Identify, state and justify any architecture design decisions or tactics used:**
 
