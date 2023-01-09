@@ -16,11 +16,12 @@
 
  - **How the conceptual design is mapped onto implementation/technologies.**
   
-    ### Service-oriented Architecture (SOA)
+  #### Service-oriented Architecture (SOA)
 
   ![soa-diagram1.png](./soa-diagram1.png)
   
-    ### Deployment Diagram
+
+  #### Deployment Diagram
 
   ![Dentistimo.png](./Dentistimo.png)
 
