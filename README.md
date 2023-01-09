@@ -15,7 +15,8 @@
  - **include a clear description of the conceptual design  of  the  architecture; including architectural styles**
 
  - **include a section that explains how the conceptual design is mapped onto implementation/technologies.**
-![soa-diagram1.png](./soa-diagram1.png)
+
+ ![soa-diagram1.png](./soa-diagram1.png)
 
  - **Identify, state and justify any architecture design decisions or tactics used:**
 
