@@ -5,9 +5,80 @@
  - Links to all relevant related team resources (Trello board, source-code repositories etc.) 
 
 # Software Requirement Specification (SRS): (Labi and Victor)
- - focus on proper (SMART) phrasing of requirements 
- - requirements shall have unique ID’s 
- - team requirements logically 
+
+1. The system shall allow user to select their appointment from a selection of clinics
+
+   1.1 Each clinic shall have a selection of timeslots based on their opening hours
+
+   1.2 The system shall not allow the user to book timeslots for times that has already happened
+
+2. The system shall allow the user to select a date for the booking of
+
+   2.1 The system shall not let users select the weekends
+
+   2.2 The system shall not let users select dates that have already passed
+
+3. The system shall allow the user to select a week for the booking of timeslot
+
+   3.1 The system shall not let users select weeks that have already passed
+
+4. The system shall allow the user to see the location of all the different clinics on a map 
+
+5. The system shall allow the user to see the information of all the different clinics on a map
+
+6. The system shall send the user a booking confirmation after they have selected their timeslot
+
+7. The system shall have a component to handle the authentication of the user.
+
+8. The system shall authenticate the user when they are using the system.
+
+   8.1 The system shall allow the user to input the user credentials in the system for authentication.
+
+   8.2 The system shall allow the user to register to the system by inputting their information.
+
+   8.3 The system shall let the user login to the system by providing their name and password.
+
+9. The system shall allow the user to manage their user information in their user account.
+
+   9.1 The system shall allow the user to see their user information.
+
+   9.2 The system shall allow the user to edit their user information.
+
+   9,3 The system shall let the user delete their user account
+
+10. The system shall have a landing page
+
+      10.1 The landing page should let the users get to the register page
+
+      10.2 The landing page should let the users get to the login page
+
+      10.3 The landing page should show the users contact details of the management team
+
+11. The system shall allow the user to see the user’s previous and upcoming bookings Notification
+
+12. The system shall have a component to handle the sending of email notifications to user about their upcoming bookings
+   
+      12.1 The system shall send out email to users after successful booking
+
+13. The system should allow the user to navigate throughout all pages 
+
+14. The system shall allow all pages to be accessible to a logged in user. 
+
+15. The system shall have all the pages to be responsive
+
+16. The system shall allow the user to log out of the system
+
+17. The system shall not allow users to make concurrent bookings
+
+18. The system shall implement a circuit breaker makes sure that the system does not get overwhelmed Components
+
+19. The system shall have a component to handle the Frontend user interface
+
+20. The system shall have a component to handle the booked slots of current users
+
+21. The system shall have a component to handle the information of clinics and their opening hours
+
+22. The system shall have a component to handle the communication between all the separate components
 
 # Software Architecture Document (SAD): (Shariq, Alaa & Umar)
 
