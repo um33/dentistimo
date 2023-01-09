@@ -91,6 +91,7 @@
 
   ![soa-diagram1.png](./soa-diagram1.png)
   
+ *Figure - We use the traditional Client/Server approach over HTTP between the client and the api gateway. which is the entry point into the backend system. The gateway communicates with the other services (auth-service, booking-service, clinics service, notification service) using  the publish/subscribe approach through the MQTT broker.
 
   #### Deployment Diagram
 
@@ -159,10 +160,6 @@ user rather than individual components.
 ![functional-decomposition-model.drawio.png](./functional-decomposition-model.drawio.png)
 *Figure - The purpose of a functional decomposition model is to break down a system into its smaller components of functions. Our FDM can be read from left to right in a chronological order, from the point of when a user registers a new account to notification of a successful appointment booking.*
 
-## Service-oriented Architecture (SOA)
-
-![service-oriented-architecture.png](./service-oriented-architecture.png)
-*Figure - placeholder*
 
 ## Entity Relationship (ER) Diagram
 
