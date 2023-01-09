@@ -44,7 +44,7 @@
 
    9.2 The system shall allow the user to edit their user information.
 
-   9,3 The system shall let the user delete their user account
+   9.3 The system shall let the user delete their user account
 
 10. The system shall have a landing page
 
