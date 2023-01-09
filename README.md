@@ -11,10 +11,22 @@
 
 # Software Architecture Document (SAD): (Shariq, Alaa & Umar)
 # Deployment Diagram 
-![Dentistimo.png](./Dentistimo.png)
- - include a clear description of the conceptual design  of  the  architecture; including architectural styles 
- - include a section that explains how the conceptual design is mapped onto implementation/technologies. 
- - Identify, state and justify any architecture design decisions or tactics used 
+
+ - **include a clear description of the conceptual design  of  the  architecture; including architectural styles**
+
+![soa-diagram1.png](./soa-diagram1.png)
+
+ - **include a section that explains how the conceptual design is mapped onto implementation/technologies.**
+ - **Identify, state and justify any architecture design decisions or tactics used:**
+
+   - To improve fault tolerance for the distributed system as a whole, we implemented a set standard for error communication between the components, the standard is known as MQTTErrorException in code and is used to effectively and reliably transfer errors from the service layer to the client. 
+
+   - To improve the security of our application, we limit the access of unauthenticated users, the authentication is implemented using a token based approach by making use of JSON Web Tokens.
+
+   - Although MQTT is the main protocol for inter-service communication, to allow frontend clients to interact with applications, we use the traditional Client/Server approach over HTTP. This means that the clients never interact with the broker, providing an extra layer of security from attacks such as DOS, DDOS and Fingerprinting among others. Although this adds further complexity for implementing reactive components, the benefits outweigh the disadvantages, and alternatives such as (SSEs and websockets are available for reactive applications).
+
+   - We use an API gateway which is the entry point into the backend system, this component is responsible for properly forwarding client requests and returning service responses back to the client. This is also where a circuit breaker is implemented so that the application can react to failures in an efficient manner, improving performance and reliability.
+
 
 # Program Management Report (PMR): (Armin)
  - describe the project management practices used 
