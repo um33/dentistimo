@@ -27,17 +27,17 @@ This project's purpose is to create a distributed software system for booking de
 
 6. The system shall send the user a booking confirmation after they have selected their timeslot
 
-7. The system shall have a component to handle the authentication of the user.
+7. The system shall have a component to handle the authentication of the user
 
 8. The system shall authenticate the user when they are using the system.
 
-   8.1 The system shall allow the user to input the user credentials in the system for authentication.
+   8.1 The system shall allow the user to input the user credentials in the system for authentication
 
-   8.2 The system shall allow the user to register to the system by inputting their information.
+   8.2 The system shall allow the user to register to the system by inputting their information
 
-   8.3 The system shall let the user login to the system by providing their name and password.
+   8.3 The system shall let the user login to the system by providing their name and password
 
-9. The system shall allow the user to manage their user information in their user account.
+9. The system shall allow the user to manage their user information in their user account
 
    9.1 The system shall allow the user to see their user information.
 
@@ -53,7 +53,7 @@ This project's purpose is to create a distributed software system for booking de
 
       10.3 The landing page should show the users contact details of the management team
 
-11. The system shall allow the user to see the user’s previous and upcoming bookings Notification
+11. The system shall allow the user to see the user’s previous and upcoming bookings 
 
 12. The system shall have a component to handle the sending of email notifications to user about their upcoming bookings
    
@@ -61,7 +61,7 @@ This project's purpose is to create a distributed software system for booking de
 
 13. The system should allow the user to navigate throughout all pages 
 
-14. The system shall allow all pages to be accessible to a logged in user. 
+14. The system shall allow all pages to be accessible to a logged in user
 
 15. The system shall have all the pages to be responsive
 
@@ -69,7 +69,7 @@ This project's purpose is to create a distributed software system for booking de
 
 17. The system shall not allow users to make concurrent bookings
 
-18. The system shall implement a circuit breaker makes sure that the system does not get overwhelmed Components
+18. The system shall implement a circuit breaker makes sure that the system does not get overwhelmed 
 
 19. The system shall have a component to handle the Frontend user interface
 
