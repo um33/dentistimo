@@ -133,7 +133,7 @@ Whether it was on campus or remotely via Discord, we held regular daily standups
 ## Important project management decisions regarding schedule and scope.
 There were several important project management decisions made regarding the schedule and scope of the project. First, the team decided to have sprint planning meetings every Wednesday afternoon in each sprint. This allowed us to regularly review and plan the work that needed to be completed in the upcoming sprint, ensuring that we were able to stay on track and meet our deadlines. Additionally, we decided to have sprint review and retrospective meetings on Mondays. These meetings provided an opportunity for us to review the work completed in the previous sprint, as well as reflect on what went well and what could be improved. Both of these meetings were limited to a maximum of 2 hours, which helped to ensure that we remained focused and efficient. By keeping the meetings short and to the point, we were able to stay on track and avoid wasting time. Finally, we made the decision to stick with the original scope of the project and not change it. This allowed us to maintain our focus and avoid the distractions and delays that can often be caused by scope changes. By effectively managing our time and resources, we were able to successfully implement our work within the original scope of the project.
 
-# Architecture (This will fall under SAD)
+# Architecture
 
 ## Architectural Significant Requirements
 Concurrency – The system should not allow concurrent bookings. That means, if
@@ -174,10 +174,6 @@ user rather than individual components.
 
 ![Dentistimo_Sitemap.png](./Dentistimo_Sitemap.png)
 > Figure 5 - The Sitemap diagram represents all the pages in our application and shows the inter-connection between them. It also shows how the navigation takes place from one page to the other.
-
-## Visuals (Victor if time)
-
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
 
 # Installation instructions (instructions for adding node.js, yarn and mongo)
 
