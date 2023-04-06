@@ -3,6 +3,14 @@
 # Purpose
 This project's purpose is to create a distributed software system for booking dentist appointments specifically for citizens of Gothenburg. The system is designed to be accessible from a standard browser, allowing users to book their appointments at any clinics available. Additionally, its distributed nature makes the system more fault tolerant, thus more available and less prone to downtimes compared to non-distributed.
 
+# Components
+- [Dentistimo Frontend](https://github.com/sh4r10/dentistimo-frontend) - The client facing component, built with Vue.js and Vite.
+- [Dentistimo Gateway](https://github.com/sh4r10/dentistimo-gateway) - The entry point from all incoming requests, circuit breaker, and request forwarding
+- [Dentistimo Auth](https://github.com/sh4r10/dentistimo-auth) - Handles JWT based authentication through the gateway
+- [Dentistimo Booking](https://github.com/sh4r10/dentistimo-booking) - Handles the creation of bookings 
+- [Dentistimo Clinics](https://github.com/sh4r10/dentistimo-clinics) - Manages clinics within the application
+- [Dentistimo Notifier](https://github.com/sh4r10/dentistimo-notifier) - Responsible for sending emails to users
+
 # Software Requirement Specification (SRS)
 
 1. The system shall allow user to select their appointment from a selection of clinics
